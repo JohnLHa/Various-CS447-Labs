@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(320,230)" to="(380,230)"/>
+    <wire from="(320,180)" to="(380,180)"/>
+    <wire from="(320,430)" to="(380,430)"/>
+    <wire from="(320,380)" to="(380,380)"/>
+    <wire from="(320,330)" to="(380,330)"/>
+    <wire from="(320,280)" to="(380,280)"/>
+    <wire from="(330,450)" to="(380,450)"/>
+    <wire from="(330,400)" to="(380,400)"/>
+    <wire from="(330,200)" to="(380,200)"/>
+    <wire from="(330,250)" to="(380,250)"/>
+    <wire from="(330,300)" to="(380,300)"/>
+    <wire from="(330,350)" to="(380,350)"/>
+    <wire from="(330,440)" to="(330,450)"/>
+    <wire from="(330,390)" to="(330,400)"/>
+    <wire from="(330,190)" to="(330,200)"/>
+    <wire from="(330,240)" to="(330,250)"/>
+    <wire from="(330,290)" to="(330,300)"/>
+    <wire from="(330,340)" to="(330,350)"/>
+    <wire from="(250,380)" to="(290,380)"/>
+    <wire from="(250,330)" to="(290,330)"/>
+    <wire from="(250,280)" to="(290,280)"/>
+    <wire from="(250,230)" to="(290,230)"/>
+    <wire from="(250,180)" to="(290,180)"/>
+    <wire from="(250,430)" to="(290,430)"/>
+    <wire from="(150,140)" to="(250,140)"/>
+    <wire from="(250,140)" to="(250,180)"/>
+    <wire from="(250,380)" to="(250,430)"/>
+    <wire from="(250,330)" to="(250,380)"/>
+    <wire from="(250,280)" to="(250,330)"/>
+    <wire from="(250,230)" to="(250,280)"/>
+    <wire from="(250,180)" to="(250,230)"/>
+    <wire from="(320,190)" to="(330,190)"/>
+    <wire from="(320,240)" to="(330,240)"/>
+    <wire from="(320,290)" to="(330,290)"/>
+    <wire from="(210,340)" to="(290,340)"/>
+    <wire from="(210,440)" to="(290,440)"/>
+    <wire from="(320,440)" to="(330,440)"/>
+    <wire from="(380,180)" to="(390,180)"/>
+    <wire from="(210,190)" to="(290,190)"/>
+    <wire from="(210,240)" to="(290,240)"/>
+    <wire from="(210,290)" to="(290,290)"/>
+    <wire from="(210,390)" to="(290,390)"/>
+    <wire from="(320,390)" to="(330,390)"/>
+    <wire from="(320,340)" to="(330,340)"/>
+    <comp lib="5" loc="(380,350)" name="LED"/>
+    <comp lib="5" loc="(380,430)" name="LED"/>
+    <comp loc="(320,330)" name="CookieWatcher"/>
+    <comp lib="5" loc="(210,190)" name="Button"/>
+    <comp lib="5" loc="(210,340)" name="Button"/>
+    <comp lib="5" loc="(380,380)" name="LED"/>
+    <comp lib="5" loc="(380,300)" name="LED"/>
+    <comp lib="5" loc="(380,250)" name="LED"/>
+    <comp lib="5" loc="(380,330)" name="LED"/>
+    <comp lib="5" loc="(210,390)" name="Button"/>
+    <comp lib="5" loc="(210,440)" name="Button"/>
+    <comp lib="5" loc="(380,200)" name="LED"/>
+    <comp loc="(320,280)" name="CookieWatcher"/>
+    <comp lib="5" loc="(380,450)" name="LED"/>
+    <comp loc="(320,380)" name="CookieWatcher"/>
+    <comp lib="0" loc="(150,140)" name="Clock"/>
+    <comp lib="5" loc="(210,240)" name="Button"/>
+    <comp loc="(320,180)" name="CookieWatcher"/>
+    <comp lib="5" loc="(210,290)" name="Button"/>
+    <comp loc="(320,230)" name="CookieWatcher"/>
+    <comp lib="5" loc="(380,400)" name="LED"/>
+    <comp lib="5" loc="(380,230)" name="LED"/>
+    <comp loc="(320,430)" name="CookieWatcher"/>
+    <comp lib="5" loc="(380,280)" name="LED"/>
+    <comp lib="5" loc="(380,180)" name="LED"/>
+  </circuit>
+  <circuit name="CookieWatcher">
+    <a name="circuit" val="CookieWatcher"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(420,180)" to="(450,180)"/>
+    <wire from="(310,220)" to="(340,220)"/>
+    <wire from="(120,160)" to="(210,160)"/>
+    <wire from="(340,180)" to="(370,180)"/>
+    <wire from="(160,100)" to="(160,110)"/>
+    <wire from="(160,130)" to="(160,140)"/>
+    <wire from="(270,230)" to="(290,230)"/>
+    <wire from="(310,210)" to="(330,210)"/>
+    <wire from="(270,120)" to="(270,230)"/>
+    <wire from="(400,170)" to="(420,170)"/>
+    <wire from="(420,170)" to="(420,180)"/>
+    <wire from="(340,180)" to="(340,220)"/>
+    <wire from="(210,140)" to="(210,160)"/>
+    <wire from="(340,220)" to="(450,220)"/>
+    <wire from="(330,160)" to="(330,210)"/>
+    <wire from="(160,110)" to="(200,110)"/>
+    <wire from="(160,130)" to="(200,130)"/>
+    <wire from="(230,120)" to="(270,120)"/>
+    <wire from="(120,200)" to="(220,200)"/>
+    <wire from="(330,160)" to="(370,160)"/>
+    <wire from="(220,140)" to="(220,200)"/>
+    <comp lib="1" loc="(400,170)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="0" loc="(450,220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(473,229)" name="Text">
+      <a name="text" val="CookiesDone"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="0" loc="(450,180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="CookiesBurnt"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(230,120)" name="Counter">
+      <a name="width" val="10"/>
+      <a name="max" val="0x3ff"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="0" loc="(290,230)" name="Splitter">
+      <a name="fanout" val="10"/>
+      <a name="incoming" val="10"/>
+    </comp>
+    <comp lib="0" loc="(120,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="BatchHandled"/>
+    </comp>
+    <comp lib="0" loc="(160,140)" name="Power"/>
+    <comp lib="0" loc="(120,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Clock"/>
+    </comp>
+    <comp lib="0" loc="(160,100)" name="Ground"/>
+  </circuit>
+</project>
